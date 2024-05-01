@@ -183,14 +183,7 @@ PlayerTab:Slider("Fov", game.Workspace.CurrentCamera.FieldOfView,120, function(v
 end)
 
 PlayerTab:Toggle("Noclip", function(s)
-    getgenv().Noclip = s
-    game:GetService("RunService").Heartbeat:Connect(function()
-        if Noclip == true then
-            game:GetService("RunService").Stepped:wait()
-            game.Players.LocalPlayer.Character.Head.CanCollide = false
-            game.Players.LocalPlayer.Character.Torso.CanCollide = false
-        end
-    end)
+    loadstring(game:HttpGet("https://pastebin.com/raw/6T4skKuj"))()
 end)
 
 PlayerTab:Toggle("Infinite Jump", function(s)
@@ -297,7 +290,11 @@ Tools:Button(" Car Fly ", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/MHE1cbWF"))()
 end)
 
-VIP:Button("SURVIVE THE KILLER", function()
+Tools:Button(" Tools TP ", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UhGbaaaa/Click-TP/main/Click%20TP"))()
+end)
+
+VIP:Button("Survive the killer", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Milan08Studio/ChairWare/main/main.lua"))()
 end)
 
@@ -306,7 +303,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/ma
 end)
 
 VIP:Button("Prison life", function()
-loadstring(game:HttpGet('https://paste.website/p/96d68817-3f1e-4fef-a8b8-9aafdc810329.txt'))()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Prison-Life-ShieldCrypt-Admin-Gui-V2-11482"))()
 end)
 
 VIP:Button("CHAOS", function()
@@ -381,6 +378,6 @@ VIP:Button("dont press the button 4", function()
 
 end)
 
-VIP:Button("Bysuskhmer HUB 1.9 ", function()
-
+T:Button("Murder Mystery 2 [EGG]", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/EGGmm2'))()
 end)
