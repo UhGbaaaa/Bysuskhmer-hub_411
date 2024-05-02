@@ -294,8 +294,12 @@ Tools:Button(" Tools TP ", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/UhGbaaaa/Click-TP/main/Click%20TP"))()
 end)
 
-VIP:Button("Survive the killer", function()
+Tools:Button(" Copy Ava ", function()
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\73\110\118\111\111\107\101\114\49\49\47\79\117\116\102\105\116\47\109\97\105\110\47\79\117\116\102\105\116\67\111\112\105\101\114\46\108\117\97\34\44\32\116\114\117\101\41\41\40\41\10")()
+end)
 
+VIP:Button("Survive the killer", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/RvvEEuytNM"))()
 end)
 
 VIP:Button("Brokhaven PR", function()
@@ -331,7 +335,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/
 end)
 
 VIP:Button("Prison Life", function()
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Lucasfin000/Orbit-UI-Library/main/Library", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))()
 end)
 
 VIP:Button("pull a Sword", function()
@@ -376,6 +380,10 @@ end)
 
 VIP:Button("dont press the button 4", function()
 
+end)
+
+VIP:Button("1x1x1x1", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/dgF9yeXJ"))()
 end)
 
 T:Button("Murder Mystery 2 [EGG]", function()
