@@ -1,0 +1,33 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/UhGbaaaa/Bysuskhmer-HUBVIA/main/MyUILib(HUB).lua"))();
+local Window = Library:Create("info")
+
+local info = Window:Tab("info","rbxassetid://10888331510")
+local stt = Window:Tab("Settings","rbxassetid://10888331510")
+
+info:Section("Info")
+
+info:Button("Create By [ Bysuskhmer ]", function()
+setclipboard("Create By [ Bysuskhmer ]") 
+end)
+
+info:Button("Script + Extra", function()
+setclipboard("Script + Extra") 
+end)
+
+stt:Section("Update Script")
+
+stt:Button("Copy Link", function()
+setclipboard("https://t.me/bysuskhmerhub") 
+end)
+
+stt:Section("Join Tel Group")
+
+stt:Button("Copy Link", function()
+setclipboard("https://t.me/bysuskhmerhub") 
+end)
+
+stt:Section("Buy Script VIP")
+
+stt:Button("Copy Link", function()
+setclipboard("https://t.me/bysuskhmerhub") 
+end)
