@@ -1,0 +1,18 @@
+-- loadstring
+local ESP = loadstring(game:HttpGet("https://kiriot22.com/releases/ESP.lua"))()
+
+-- config
+ESP.Players = true
+ESP.Boxes = true
+ESP.Names = true
+ESP:Toggle(true)
+
+-- object
+ESP:AddObjectListener(Workspace.Folder.Felipe, {
+    Name = "HeadWeld",  
+    CustomName = "Folder.Felipe", 
+    Color = Color3.fromRGB(255, 0, 0), 
+    IsEnabled = "whatever" 
+})
+
+ESP.whatever = true
