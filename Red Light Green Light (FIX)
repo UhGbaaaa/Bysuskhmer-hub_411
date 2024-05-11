@@ -1,0 +1,20 @@
+local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local window = kavoUi.CreateLib("BysusKhmer","BloodTheme")
+ 
+---Hi
+ 
+local Tab1 = window:NewTab("Main")
+local Tab1Section = Tab1:NewSection("Squid Game ")
+--
+ 
+Tab1Section:NewButton("Become Frontman","Become Frontman",function()
+ 
+game:GetService("ReplicatedStorage").FrontmanRemotes.BecomeFrontman:InvokeServer(true)
+ 
+end) 
+
+Tab1Section:NewButton("Become Guard","Become Guard",function()
+
+game:GetService("ReplicatedStorage").GuardRemotes.BecomeGuard:InvokeServer(true)
+
+end) 
