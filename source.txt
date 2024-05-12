@@ -4329,37 +4329,37 @@ function autoComplete(str,curText)
 end
 
 CMDs = {}
-CMDs[#CMDs + 1] = {NAME = 'discord / support / help', DESC = 'Invite to the Infinite Yield support server.'}
-CMDs[#CMDs + 1] = {NAME = 'console', DESC = 'Loads old Roblox console'}
-CMDs[#CMDs + 1] = {NAME = 'explorer / dex', DESC = 'Opens DEX by Moon'}
-CMDs[#CMDs + 1] = {NAME = 'olddex / odex', DESC = 'Opens Old DEX by Moon'}
-CMDs[#CMDs + 1] = {NAME = 'remotespy / rspy', DESC = 'Opens Simple Spy V3'}
-CMDs[#CMDs + 1] = {NAME = 'audiologger / alogger', DESC = 'Opens Edges audio logger'}
-CMDs[#CMDs + 1] = {NAME = 'serverinfo / info', DESC = 'Gives you info about the server'}
-CMDs[#CMDs + 1] = {NAME = 'jobid', DESC = 'Copies the games JobId to your clipboard'}
-CMDs[#CMDs + 1] = {NAME = 'notifyjobid', DESC = 'Notifies you the games JobId'}
-CMDs[#CMDs + 1] = {NAME = 'rejoin / rj', DESC = 'Makes you rejoin the game'}
-CMDs[#CMDs + 1] = {NAME = 'autorejoin / autorj', DESC = 'Automatically rejoins the server if you get kicked/disconnected'}
-CMDs[#CMDs + 1] = {NAME = 'serverhop / shop', DESC = 'Teleports you to a different server'}
-CMDs[#CMDs + 1] = {NAME = 'joinplayer [username / ID] [place ID]', DESC = 'Joins a specific players server'}
-CMDs[#CMDs + 1] = {NAME = 'gameteleport / gametp [place ID]', DESC = 'Joins a game by ID'}
-CMDs[#CMDs + 1] = {NAME = 'antiidle / antiafk', DESC = 'Prevents the game from kicking you for being idle/afk'}
-CMDs[#CMDs + 1] = {NAME = 'datalimit [num]', DESC = 'Set outgoing KBPS limit'}
-CMDs[#CMDs + 1] = {NAME = 'replicationlag / backtrack [num]', DESC = 'Set IncomingReplicationLag'}
-CMDs[#CMDs + 1] = {NAME = 'creatorid / creator', DESC = 'Notifies you the creators ID'}
-CMDs[#CMDs + 1] = {NAME = 'copycreatorid / copycreator', DESC = 'Copies the creators ID to your clipboard'}
-CMDs[#CMDs + 1] = {NAME = 'setcreatorid / setcreator', DESC = 'Sets your userid to the creators ID'}
-CMDs[#CMDs + 1] = {NAME = 'noprompts', DESC = 'Prevents the game from showing you purchase/premium prompts'}
-CMDs[#CMDs + 1] = {NAME = 'showprompts', DESC = 'Allows the game to show purchase/premium prompts again'}
-CMDs[#CMDs + 1] = {NAME = 'enable [inventory/playerlist/chat/reset/emotes/all]', DESC = 'Toggles visibility of coregui items'}
-CMDs[#CMDs + 1] = {NAME = 'disable [inventory/playerlist/chat/reset/emotes/all]', DESC = 'Toggles visibility of coregui items'}
-CMDs[#CMDs + 1] = {NAME = 'showguis', DESC = 'Shows any invisible GUIs'}
-CMDs[#CMDs + 1] = {NAME = 'unshowguis', DESC = 'Undoes showguis'}
-CMDs[#CMDs + 1] = {NAME = 'hideguis', DESC = 'Hides any GUIs in PlayerGui'}
-CMDs[#CMDs + 1] = {NAME = 'unhideguis', DESC = 'Undoes hideguis'}
-CMDs[#CMDs + 1] = {NAME = 'guidelete', DESC = 'Enables backspace to delete GUI'}
-CMDs[#CMDs + 1] = {NAME = 'unguidelete / noguidelete', DESC = 'Disables guidelete'}
-CMDs[#CMDs + 1] = {NAME = 'hideiy', DESC = 'Hides the main IY GUI'}
+CMDs[#CMDs + 1] = {NAME = 'discord / support/help', DESC = 'អញ្ជើញ​ទៅ​ម៉ាស៊ីនមេ​ជំនួយ​ទិន្នផល​គ្មានកំណត់។'}
+CMDs[#CMDs + 1] = {NAME = 'console', DESC = 'ផ្ទុក​កុងសូល Roblox ចាស់'}
+CMDs[#CMDs + 1] = {NAME = 'explorer / dex', DESC = 'បើក DEX ដោយព្រះច័ន្ទ'}
+CMDs[#CMDs + 1] = {NAME = 'olddex / odex', DESC = 'បើក DEX ចាស់ដោយព្រះច័ន្ទ'}
+CMDs[#CMDs + 1] = {NAME = 'remotespy / rspy', DESC = 'បើក Spy សាមញ្ញ V3'}
+CMDs[#CMDs + 1] = {NAME = 'audiologger / alogger', DESC = 'បើក​អ្នក​កាប់​ឈើ​អូឌីយ៉ូ'}
+CMDs[#CMDs + 1] = {NAME = 'serverinfo / info', DESC = 'ផ្តល់ឱ្យអ្នកនូវព័ត៌មានអំពីម៉ាស៊ីនមេ'}
+CMDs[#CMDs + 1] = {NAME = 'jobid', DESC = 'ចម្លងហ្គេម JobId ទៅក្នុងក្ដារតម្បៀតខ្ទាស់របស់អ្នក'}
+CMDs[#CMDs + 1] = {NAME = 'notifyjobid', DESC = 'ជូនដំណឹងដល់អ្នកអំពីហ្គេម JobId'}
+CMDs[#CMDs + 1] = {NAME = 'rejoin / rj', DESC = 'ធ្វើឱ្យអ្នកចូលរួមក្នុងហ្គេមឡើងវិញ'}
+CMDs[#CMDs + 1] = {NAME = 'autorejoin / autorj', DESC = 'បញ្ចូលម៉ាស៊ីនមេឡើងវិញដោយស្វ័យប្រវត្តិ ប្រសិនបើអ្នកត្រូវបានទាត់/ផ្តាច់'}
+CMDs[#CMDs + 1] = {NAME = 'serverhop / shop', DESC = 'បញ្ជូនអ្នកទៅកាន់ម៉ាស៊ីនមេផ្សេង'}
+CMDs[#CMDs + 1] = {NAME = 'joinplayer [username / ID] [place ID]', DESC = 'ចូលរួមជាមួយ server player ជាក់លាក់'}
+CMDs[#CMDs + 1] = {NAME = 'gameteleport / gametp [place ID]', DESC = 'ចូលរួមលេងហ្គេមដោយ ID'}
+CMDs[#CMDs + 1] = {NAME = 'antiidle / antiafk', DESC = 'ការពារហ្គេមពីការទាត់អ្នក ដោយសារទំនេរ/afk'}
+CMDs[#CMDs + 1] = {NAME = 'datalimit [num]', DESC = 'កំណត់ដែនកំណត់ KBPS ចេញ'}
+CMDs[#CMDs + 1] = {NAME = 'replicationlag / backtrack [num]', DESC = 'កំណត់ IncomingReplicationLag'}
+CMDs[#CMDs + 1] = {NAME = 'creatorid / អ្នកបង្កើត', DESC = 'ជូនដំណឹងអ្នកពីលេខសម្គាល់អ្នកបង្កើត'}
+CMDs[#CMDs + 1] = {NAME = 'copycreatorid / copycreator', DESC = 'ចម្លងលេខសម្គាល់អ្នកបង្កើតទៅក្ដារតម្បៀតខ្ទាស់របស់អ្នក'}
+CMDs[#CMDs + 1] = {NAME = 'setcreatorid / setcreator', DESC = 'កំណត់ userid របស់អ្នកទៅលេខសម្គាល់អ្នកបង្កើត'}
+CMDs[#CMDs + 1] = {NAME = 'noprompts', DESC = 'រារាំងហ្គេមមិនឱ្យបង្ហាញអ្នកពីការជម្រុញទិញ/ពិសេស}
+CMDs[#CMDs + 1] = {NAME = 'showprompts', DESC = 'អនុញ្ញាតឱ្យហ្គេមបង្ហាញការជម្រុញការទិញ/បុព្វលាភម្តងទៀត'}
+CMDs[#CMDs + 1] = {NAME = 'enable [inventory/playerlist/chat/reset/emotes/all]', DESC = 'បិទបើកលទ្ធភាពមើលឃើញនៃធាតុ coregui'}
+CMDs[#CMDs + 1] = {NAME = 'disable [inventory/playerlist/chat/reset/emotes/all]', DESC = 'បិទបើកលទ្ធភាពមើលឃើញនៃធាតុ coregui'}
+CMDs[#CMDs + 1] = {NAME = 'showguis', DESC = 'បង្ហាញ GUI ដែលមើលមិនឃើញណាមួយ'}
+CMDs[#CMDs + 1] = {NAME = 'unshowguis', DESC = 'មិនធ្វើ showguis'}
+CMDs[#CMDs + 1] = {NAME = 'hideguis', DESC = 'លាក់ GUI ណាមួយនៅក្នុង PlayerGui'}
+CMDs[#CMDs + 1] = {NAME = 'unhideguis', DESC = 'មិន​ធ្វើ​ការ​លាក់​បាំង'}
+CMDs[#CMDs + 1] = {NAME = 'guidelete', DESC = 'បើក backspace ដើម្បីលុប GUI'}
+CMDs[#CMDs + 1] = {NAME = 'unguidelete / noguidelete', DESC = 'បិទការណែនាំ'}
+CMDs[#CMDs + 1] = {NAME = 'hideiy', DESC = 'លាក់ IY GUI'}
 CMDs[#CMDs + 1] = {NAME = 'showiy / unhideiy', DESC = 'Shows IY again'}
 CMDs[#CMDs + 1] = {NAME = 'keepiy', DESC = 'Auto execute IY when you teleport through servers'}
 CMDs[#CMDs + 1] = {NAME = 'unkeepiy', DESC = 'Disable keepiy'}
