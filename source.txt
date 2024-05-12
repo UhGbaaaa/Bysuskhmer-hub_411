@@ -336,7 +336,7 @@ Prefix.Position = UDim2.new(0, 5, 0, 5)
 Prefix.Size = UDim2.new(1, -10, 0, 20)
 Prefix.Font = Enum.Font.SourceSans
 Prefix.TextSize = 14
-Prefix.Text = ""
+Prefix.Text = "Prefix"
 Prefix.TextColor3 = Color3.new(1, 1, 1)
 Prefix.TextXAlignment = Enum.TextXAlignment.Left
 Prefix.ZIndex = 10
@@ -404,7 +404,7 @@ ColorsButton.Parent = SettingsHolder
 Keybinds = makeSettingsButton("Edit Keybinds","rbxassetid://129697930")
 Keybinds.Position = UDim2.new(0, 5, 0, 85)
 Keybinds.Size = UDim2.new(1, -10, 0, 25)
-Keybinds.Name = ""
+Keybinds.Name = "Keybinds"
 Keybinds.Parent = SettingsHolder
 
 Aliases = makeSettingsButton("Edit Aliases","rbxassetid://5147488658")
@@ -422,7 +422,7 @@ StayOpen.Position = UDim2.new(0, 5, 0, 30)
 StayOpen.Size = UDim2.new(1, -10, 0, 20)
 StayOpen.Font = Enum.Font.SourceSans
 StayOpen.TextSize = 14
-StayOpen.Text = ""
+StayOpen.Text = "Keep Menu Open"
 StayOpen.TextColor3 = Color3.new(1, 1, 1)
 StayOpen.TextXAlignment = Enum.TextXAlignment.Left
 StayOpen.ZIndex = 10
@@ -454,7 +454,7 @@ On.ZIndex = 10
 Positions = makeSettingsButton("Edit/Goto Waypoints","rbxassetid://5147488592")
 Positions.Position = UDim2.new(0, 5, 0, 145)
 Positions.Size = UDim2.new(1, -10, 0, 25)
-Positions.Name = ""
+Positions.Name = "Waypoints"
 Positions.Parent = SettingsHolder
 
 EventBind = makeSettingsButton("Edit Event Binds","rbxassetid://5147695474",759)
@@ -477,7 +477,7 @@ Example.Size = UDim2.new(0, 190, 0, 20)
 Example.Visible = false
 Example.Font = Enum.Font.SourceSans
 Example.TextSize = 18
-Example.Text = ""
+Example.Text = "Example"
 Example.TextColor3 = Color3.new(1, 1, 1)
 Example.TextXAlignment = Enum.TextXAlignment.Left
 Example.ZIndex = 10
@@ -499,7 +499,7 @@ Title_2.BorderSizePixel = 0
 Title_2.Size = UDim2.new(0, 250, 0, 20)
 Title_2.Font = Enum.Font.SourceSans
 Title_2.TextSize = 14
-Title_2.Text = ""
+Title_2.Text = "Notification Title"
 Title_2.TextColor3 = Color3.new(1, 1, 1)
 Title_2.ZIndex = 10
 table.insert(shade2,Title_2)
@@ -513,7 +513,7 @@ Text_2.Position = UDim2.new(0, 5, 0, 25)
 Text_2.Size = UDim2.new(0, 240, 0, 75)
 Text_2.Font = Enum.Font.SourceSans
 Text_2.TextSize = 16
-Text_2.Text = ""
+Text_2.Text = "Notification Text"
 Text_2.TextColor3 = Color3.new(1, 1, 1)
 Text_2.TextWrapped = true
 Text_2.ZIndex = 10
@@ -640,7 +640,7 @@ Close.Position = UDim2.new(0, 205, 0, 150)
 Close.Size = UDim2.new(0, 40, 0, 20)
 Close.Font = Enum.Font.SourceSans
 Close.TextSize = 14
-Close.Text = ""
+Close.Text = "Close"
 Close.TextColor3 = Color3.new(1, 1, 1)
 Close.ZIndex = 10
 table.insert(shade2,Close)
@@ -654,7 +654,7 @@ Add.Position = UDim2.new(0, 5, 0, 150)
 Add.Size = UDim2.new(0, 40, 0, 20)
 Add.Font = Enum.Font.SourceSans
 Add.TextSize = 14
-Add.Text = ""
+Add.Text = "Add"
 Add.TextColor3 = Color3.new(1, 1, 1)
 Add.ZIndex = 10
 table.insert(shade2,Add)
@@ -668,7 +668,7 @@ Delete.Position = UDim2.new(0, 50, 0, 150)
 Delete.Size = UDim2.new(0, 40, 0, 20)
 Delete.Font = Enum.Font.SourceSans
 Delete.TextSize = 14
-Delete.Text = ""
+Delete.Text = "Clear"
 Delete.TextColor3 = Color3.new(1, 1, 1)
 Delete.ZIndex = 10
 table.insert(shade2,Delete)
@@ -721,7 +721,7 @@ Delete_2.Position = UDim2.new(0, 200, 0, 0)
 Delete_2.Size = UDim2.new(0, 40, 0, 20)
 Delete_2.Font = Enum.Font.SourceSans
 Delete_2.TextSize = 14
-Delete_2.Text = ""
+Delete_2.Text = "Delete"
 Delete_2.TextColor3 = Color3.new(0, 0, 0)
 Delete_2.ZIndex = 10
 table.insert(shade3,Delete_2)
@@ -778,7 +778,7 @@ BindTo.Position = UDim2.new(0, 10, 0, 95)
 BindTo.Size = UDim2.new(0, 115, 0, 50)
 BindTo.ZIndex = 10
 BindTo.Font = Enum.Font.SourceSans
-BindTo.Text = ""
+BindTo.Text = "Click to bind"
 BindTo.TextColor3 = Color3.fromRGB(255, 255, 255)
 BindTo.TextSize = 16.000
 table.insert(shade2,BindTo)
@@ -4329,42 +4329,42 @@ function autoComplete(str,curText)
 end
 
 CMDs = {}
-CMDs[#CMDs + 1] = {NAME = ' /support/help', DESC = ''}
-CMDs[#CMDs + 1] = {NAME = '', DESC = ' Roblox '}
-CMDs[#CMDs + 1] = {NAME = ' / dex', DESC = ' DEX '}
-CMDs[#CMDs + 1] = {NAME = 'olddex / odex', DESC = ' DEX '}
-CMDs[#CMDs + 1] = {NAME = 'remotespy / rspy', DESC = ' Spy  V3'}
-CMDs[#CMDs + 1] = {NAME = 'audiologger / alogger', DESC = 'Opens Edges audiologger'}
-CMDs[#CMDs + 1] = {NAME = 'serverinfo/info', DESC = ''}
-CMDs[#CMDs + 1] = {NAME = 'jobid', DESC = ' JobId '}
-CMDs[#CMDs + 1] = {NAME = 'notifyjobid', DESC = ' JobId'}
-CMDs[#CMDs + 1] = {NAME = 'rejoin / rj', DESC = ''}
-CMDs[#CMDs + 1] = {NAME = 'autorejoin / autorj', DESC = ' /'}
-CMDs[#CMDs + 1] = {NAME = 'serverhop/shop', DESC = ''}
-CMDs[#CMDs + 1] = {NAME = 'joinplayer [username / ID] [place ID]', DESC = ' server player '}
-CMDs[#CMDs + 1] = {NAME = 'gameteleport / gametp [place ID]', DESC = ' ID'}
-CMDs[#CMDs + 1] = {NAME = 'anti idle / anti afk', DESC = ' /afk'}
-CMDs[#CMDs + 1] = {NAME = 'datalimit [num]', DESC = ' KBPS '}
+CMDs[#CMDs + 1] = {NAME = 'discord / support / help', DESC = 'Invite to the Infinite Yield support server.'}
+CMDs[#CMDs + 1] = {NAME = 'console', DESC = 'Loads old Roblox console'}
+CMDs[#CMDs + 1] = {NAME = 'explorer / dex', DESC = 'Opens DEX by Moon'}
+CMDs[#CMDs + 1] = {NAME = 'olddex / odex', DESC = 'Opens Old DEX by Moon'}
+CMDs[#CMDs + 1] = {NAME = 'remotespy / rspy', DESC = 'Opens Simple Spy V3'}
+CMDs[#CMDs + 1] = {NAME = 'audiologger / alogger', DESC = 'Opens Edges audio logger'}
+CMDs[#CMDs + 1] = {NAME = 'serverinfo / info', DESC = 'Gives you info about the server'}
+CMDs[#CMDs + 1] = {NAME = 'jobid', DESC = 'Copies the games JobId to your clipboard'}
+CMDs[#CMDs + 1] = {NAME = 'notifyjobid', DESC = 'Notifies you the games JobId'}
+CMDs[#CMDs + 1] = {NAME = 'rejoin / rj', DESC = 'Makes you rejoin the game'}
+CMDs[#CMDs + 1] = {NAME = 'autorejoin / autorj', DESC = 'Automatically rejoins the server if you get kicked/disconnected'}
+CMDs[#CMDs + 1] = {NAME = 'serverhop / shop', DESC = 'Teleports you to a different server'}
+CMDs[#CMDs + 1] = {NAME = 'joinplayer [username / ID] [place ID]', DESC = 'Joins a specific players server'}
+CMDs[#CMDs + 1] = {NAME = 'gameteleport / gametp [place ID]', DESC = 'Joins a game by ID'}
+CMDs[#CMDs + 1] = {NAME = 'antiidle / antiafk', DESC = 'Prevents the game from kicking you for being idle/afk'}
+CMDs[#CMDs + 1] = {NAME = 'datalimit [num]', DESC = 'Set outgoing KBPS limit'}
 CMDs[#CMDs + 1] = {NAME = 'replicationlag / backtrack [num]', DESC = 'Set IncomingReplicationLag'}
-CMDs[#CMDs + 1] = {NAME = 'creatorid/creator', DESC = ''}
-CMDs[#CMDs + 1] = {NAME = 'copycreatorid / copycreator', DESC = ''}
-CMDs[#CMDs + 1] = {NAME = 'setcreatorid / setcreator', DESC = ' userid '}
-CMDs[#CMDs + 1] = {NAME = 'noprompts', DESC = '/'}
-CMDs[#CMDs + 1] = {NAME = 'showprompts', DESC = '/'}
-CMDs[#CMDs + 1] = {NAME = ' [/////]', DESC = ' coregui'}
-CMDs[#CMDs + 1] = {NAME = ' [/////]', DESC = ' coregui'}
-CMDs[#CMDs + 1] = {NAME = 'showguis', DESC = ' GUI '}
-CMDs[#CMDs + 1] = {NAME = 'unshowguis', DESC = ' showguis'}
-CMDs[#CMDs + 1] = {NAME = 'hideguis', DESC = ' GUIs  PlayerGui'}
+CMDs[#CMDs + 1] = {NAME = 'creatorid / creator', DESC = 'Notifies you the creators ID'}
+CMDs[#CMDs + 1] = {NAME = 'copycreatorid / copycreator', DESC = 'Copies the creators ID to your clipboard'}
+CMDs[#CMDs + 1] = {NAME = 'setcreatorid / setcreator', DESC = 'Sets your userid to the creators ID'}
+CMDs[#CMDs + 1] = {NAME = 'noprompts', DESC = 'Prevents the game from showing you purchase/premium prompts'}
+CMDs[#CMDs + 1] = {NAME = 'showprompts', DESC = 'Allows the game to show purchase/premium prompts again'}
+CMDs[#CMDs + 1] = {NAME = 'enable [inventory/playerlist/chat/reset/emotes/all]', DESC = 'Toggles visibility of coregui items'}
+CMDs[#CMDs + 1] = {NAME = 'disable [inventory/playerlist/chat/reset/emotes/all]', DESC = 'Toggles visibility of coregui items'}
+CMDs[#CMDs + 1] = {NAME = 'showguis', DESC = 'Shows any invisible GUIs'}
+CMDs[#CMDs + 1] = {NAME = 'unshowguis', DESC = 'Undoes showguis'}
+CMDs[#CMDs + 1] = {NAME = 'hideguis', DESC = 'Hides any GUIs in PlayerGui'}
 CMDs[#CMDs + 1] = {NAME = 'unhideguis', DESC = 'Undoes hideguis'}
-CMDs[#CMDs + 1] = {NAME = 'guidelete', DESC = ' backspace  GUI'}
-CMDs[#CMDs + 1] = {NAME = 'unguidelete / noguidelete', DESC = ''}
-CMDs[#CMDs + 1] = {NAME = 'hideiy', DESC = ' IY GUI '}
-CMDs[#CMDs + 1] = {NAME = 'show/unhide', DISK = ' IT '}
-CMDs[#CMDs + 1] = {NAME = 'keepiy', DESC = ' IY  '}
-CMDs[#CMDs + 1] = {NAME = 'unkeepiy', DESC = ' Keepiy'}
-CMDs[#CMDs + 1] = {NAME = 'toggleepiy', DESC = '/ keepiy'}
-CMDs[#CMDs + 1] = {NAME = 'savegame / saveplace', DESC = ' saveinstance '}
+CMDs[#CMDs + 1] = {NAME = 'guidelete', DESC = 'Enables backspace to delete GUI'}
+CMDs[#CMDs + 1] = {NAME = 'unguidelete / noguidelete', DESC = 'Disables guidelete'}
+CMDs[#CMDs + 1] = {NAME = 'hideiy', DESC = 'Hides the main IY GUI'}
+CMDs[#CMDs + 1] = {NAME = 'showiy / unhideiy', DESC = 'Shows IY again'}
+CMDs[#CMDs + 1] = {NAME = 'keepiy', DESC = 'Auto execute IY when you teleport through servers'}
+CMDs[#CMDs + 1] = {NAME = 'unkeepiy', DESC = 'Disable keepiy'}
+CMDs[#CMDs + 1] = {NAME = 'togglekeepiy', DESC = 'Toggle keepiy'}
+CMDs[#CMDs + 1] = {NAME = 'savegame / saveplace', DESC = 'Uses saveinstance to save the game'}
 CMDs[#CMDs + 1] = {NAME = 'clearerror', DESC = 'Clears the annoying box and blur when a game kicks you'}
 CMDs[#CMDs + 1] = {NAME = 'clientantikick / antikick (CLIENT)', DESC = 'Prevents localscripts from kicking you'}
 CMDs[#CMDs + 1] = {NAME = 'clientantiteleport / antiteleport (CLIENT)', DESC = 'Prevents localscripts from teleporting you'}
