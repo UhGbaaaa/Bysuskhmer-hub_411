@@ -150,6 +150,10 @@ HomeTab:Button("Info", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/UhGbaaaa/Bysuskhmer-hub_411/main/Bysuskhmer%20info"))()
 end)
 
+HomeTab:Button("Murder 5vs5", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UhGbaaaa/Bysuskhmer-hub_411/main/Bysuskhmer%20info"))()
+end)
+
 PlayerTab:TextBox("WalkSpeed", function(value)
     getgenv().Walkspeed = value
     pcall(function()
