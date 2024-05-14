@@ -1,5 +1,5 @@
-if game.PlaceId == 920587237 then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/JulHubz/JulHub/main/AdoptMe"))()
-elseif game.PlaceId == 4924922222 then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/JulHubz/JulHub/main/Brookhaven"))()
+if game.PlaceId == 8668536168 then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/UhGbaaaa/Bysuskhmer-hub_411/main/Script%20Murder%205vs5"))()
+elseif game.PlaceId == 8668536168 then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/UhGbaaaa/Bysuskhmer-hub_411/main/Script%20Murder%205vs5"))()
 end
