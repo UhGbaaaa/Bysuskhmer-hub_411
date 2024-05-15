@@ -596,7 +596,7 @@ function Library:Create(TitleText)
 			TextBox_2.ZIndex = 99
 			TextBox_2.ClearTextOnFocus = false
 			TextBox_2.Font = Enum.Font.Ubuntu
-			TextBox_2.PlaceholderText = "Type here!"
+			TextBox_2.PlaceholderText = "lnput"
 			TextBox_2.Text = ""
 			TextBox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 			TextBox_2.TextSize = 12.000
