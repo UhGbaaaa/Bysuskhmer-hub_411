@@ -514,7 +514,7 @@ function Library:Create(TitleText)
 			btn.MouseEnter:Connect(function()
 				if not focusing then
 					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+						BackgroundColor3 = Color3.fromRGB(255, 255, 255) 
 					}):Play()
 					game.TweenService:Create(UIStroke, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						Color = Color3.fromRGB(0, 0, 0)
@@ -525,7 +525,7 @@ function Library:Create(TitleText)
 			btn.MouseLeave:Connect(function()
 				if not focusing then 
 					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+						BackgroundColor3 = Color3.fromRGB(255, 255, 255) 
 					}):Play()
 					game.TweenService:Create(UIStroke, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						Color = Color3.fromRGB(0, 0, 0)
