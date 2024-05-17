@@ -6,7 +6,7 @@ local tweeninfo2 = TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirectio
 local input = game:GetService("UserInputService")
 local run = game:GetService("RunService")
 local mouse = game.Players.LocalPlayer:GetMouse()
-local focusing = false
+local focusing = true
 
 local Utility = {}
 local Objects = {}
@@ -125,7 +125,7 @@ function Library:Create(TitleText)
 	Extension.Name = "Extension"
 	Extension.Parent = TopBar
 	Extension.AnchorPoint = Vector2.new(0, 1)
-	Extension.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	Extension.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Extension.BorderSizePixel = 0
 	Extension.Position = UDim2.new(0, 0, 1, 0)
 	Extension.Size = UDim2.new(1, 0, 0.5, 0)
@@ -148,7 +148,7 @@ function Library:Create(TitleText)
 	Line.Name = "Line"
 	Line.Parent = TopBar
 	Line.AnchorPoint = Vector2.new(0, 1)
-	Line.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	Line.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Line.BorderSizePixel = 0
 	Line.Position = UDim2.new(0, 0, 1, 0)
 	Line.Size = UDim2.new(1, 0, 0, 1)
@@ -514,7 +514,7 @@ function Library:Create(TitleText)
 			btn.MouseEnter:Connect(function()
 				if not focusing then
 					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+						BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					}):Play()
 					game.TweenService:Create(UIStroke, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						Color = Color3.fromRGB(0, 0, 0)
@@ -525,7 +525,7 @@ function Library:Create(TitleText)
 			btn.MouseLeave:Connect(function()
 				if not focusing then 
 					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+						BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					}):Play()
 					game.TweenService:Create(UIStroke, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						Color = Color3.fromRGB(0, 0, 0)
@@ -1337,3 +1337,10 @@ function Library:Create(TitleText)
 	return Tabs
 end
 return Library
+
+StarterGui:SetCore("SendNotification", {
+    Title = "BYSUSKHMER HUB LOAD SUCCESS ! ",
+    Text = "Creator By @ Bysuskhmer",
+    Duration = math.huge,
+    Button1 = "Subs"
+})
