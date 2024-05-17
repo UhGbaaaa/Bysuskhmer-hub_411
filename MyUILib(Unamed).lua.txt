@@ -479,7 +479,7 @@ function Library:Create(TitleText)
 			UIStroke.Name = "UIStroke"
 			UIStroke.Parent = Button
 			UIStroke.ApplyStrokeMode = "Border"
-			UIStroke.Color = Color3.fromRGB(255, 255, 255)
+			UIStroke.Color = Color3.fromRGB(0, 0, 0)
 			UIStroke.LineJoinMode = "Round"
 			UIStroke.Thickness = 1
 			UIStroke.Transparency = 0
@@ -598,7 +598,7 @@ function Library:Create(TitleText)
 			TextBox_2.Font = Enum.Font.Ubuntu
 			TextBox_2.PlaceholderText = "lnput"
 			TextBox_2.Text = ""
-			TextBox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+			TextBox_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 			TextBox_2.TextSize = 12.000
 
 			UICorner_35.Parent = TextBox_2
