@@ -1337,10 +1337,3 @@ function Library:Create(TitleText)
 	return Tabs
 end
 return Library
-
-StarterGui:SetCore("SendNotification", {
-    Title = "BYSUSKHMER HUB LOAD SUCCESS ! ",
-    Text = "Creator By @ Bysuskhmer",
-    Duration = math.huge,
-    Button1 = "Subs"
-})
