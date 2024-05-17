@@ -6,7 +6,7 @@ local tweeninfo2 = TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirectio
 local input = game:GetService("UserInputService")
 local run = game:GetService("RunService")
 local mouse = game.Players.LocalPlayer:GetMouse()
-local focusing = true
+local focusing = false
 
 local Utility = {}
 local Objects = {}
