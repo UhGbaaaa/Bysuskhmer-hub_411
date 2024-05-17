@@ -517,7 +517,7 @@ function Library:Create(TitleText)
 						BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					}):Play()
 					game.TweenService:Create(UIStroke, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						Color = Color3.fromRGB(255, 255, 255)
+						Color = Color3.fromRGB(0, 0, 0)
 					}):Play()
 					hovering = true
 				end
@@ -528,7 +528,7 @@ function Library:Create(TitleText)
 						BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					}):Play()
 					game.TweenService:Create(UIStroke, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						Color = Color3.fromRGB(255, 255, 255)
+						Color = Color3.fromRGB(0, 0, 0)
 					}):Play()
 					hovering = false
 				end
@@ -620,7 +620,7 @@ function Library:Create(TitleText)
 						BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					}):Play()
 					game.TweenService:Create(UIStroke_9, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						Color = Color3.fromRGB(255, 255, 255)
+						Color = Color3.fromRGB(0, 0, 0)
 					}):Play()
 					hovering = true
 				end 
@@ -631,7 +631,7 @@ function Library:Create(TitleText)
 						BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					}):Play()
 					game.TweenService:Create(UIStroke_9, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						Color = Color3.fromRGB(255, 255, 255)
+						Color = Color3.fromRGB(0, 0, 0)
 					}):Play()
 					hovering = false
 				end
@@ -742,7 +742,7 @@ function Library:Create(TitleText)
 							BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 						}):Play()
 						game.TweenService:Create(UIStroke_3, TweenInfo.new(0.15, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-							Color = Color3.fromRGB(0, 0, 0)
+							Color = Color3.fromRGB(31, 255, 0)
 						}):Play()
 						local c = sample:Clone()
 						c.Parent = btn
@@ -765,7 +765,7 @@ function Library:Create(TitleText)
 							BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 						}):Play()
 						game.TweenService:Create(UIStroke_3, TweenInfo.new(0.15, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-							Color = Color3.fromRGB(31, 255, 0) 
+							Color = Color3.fromRGB(0, 0, 0) 
 						}):Play()
 						local c = sample:Clone()
 						c.Parent = btn
@@ -795,7 +795,7 @@ function Library:Create(TitleText)
 						BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					}):Play()
 					game.TweenService:Create(UIStroke_2, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						Color = Color3.fromRGB(0, 0, 0)
+						Color = Color3.fromRGB(31, 255, 0)
 					}):Play()
 					hovering = true
 				end 
@@ -876,13 +876,13 @@ function Library:Create(TitleText)
 			Valuee.Size = UDim2.new(0, 24, 1, -10)
 			Valuee.Font = Enum.Font.Ubuntu
 			Valuee.Text = minvalue
-			Valuee.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Valuee.TextColor3 = Color3.fromRGB(0, 0, 0)
 			Valuee.TextSize = 14.000
 			Valuee.TextXAlignment = Enum.TextXAlignment.Right
 
 			SliderButton.Name = "SliderButton"
 			SliderButton.Parent = Slider
-			SliderButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			SliderButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			SliderButton.BackgroundTransparency = 1
 			SliderButton.Position = UDim2.new(0, 0, 0.846153855, 0)
 			SliderButton.Size = UDim2.new(0, 253, 0, 4)
@@ -1025,7 +1025,7 @@ function Library:Create(TitleText)
 						BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					}):Play()
 					game.TweenService:Create(UIStroke_Idk791, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						Color = Color3.fromRGB(31, 255, 0)
+						Color = Color3.fromRGB(0, 0, 0)
 					}):Play()
 					hovering = false
 				end
