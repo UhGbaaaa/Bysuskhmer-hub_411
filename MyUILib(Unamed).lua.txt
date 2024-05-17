@@ -901,7 +901,7 @@ function Library:Create(TitleText)
 
 			SliderInner.Name = "SliderInner"
 			SliderInner.Parent = SliderButton
-			SliderInner.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
+			SliderInner.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			SliderInner.Size = UDim2.new(0, 0, 0, 4)
 
 			UICorner_13.CornerRadius = UDim.new(0, 4)
@@ -1054,7 +1054,7 @@ function Library:Create(TitleText)
 			UIStroke_Idk791.Name = "UIStroke"
 			UIStroke_Idk791.Parent = Keybind
 			UIStroke_Idk791.ApplyStrokeMode = "Border"
-			UIStroke_Idk791.Color = Color3.fromRGB(81, 81, 81)
+			UIStroke_Idk791.Color = Color3.fromRGB(0, 0, 0)
 			UIStroke_Idk791.LineJoinMode = "Round"
 			UIStroke_Idk791.Thickness = 1
 			UIStroke_Idk791.Transparency = 0
@@ -1071,7 +1071,7 @@ function Library:Create(TitleText)
 			Box.Parent = Keybind
 			Box.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Box.BackgroundTransparency = 0.900
-			Box.BorderColor3 = Color3.fromRGB(53, 53, 53)
+			Box.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			Box.Position = UDim2.new(0.897233188, 0, 0, 0)
 			Box.Size = UDim2.new(0, 22, 0, 20)
 
@@ -1081,14 +1081,14 @@ function Library:Create(TitleText)
 			UIStroke_qqqaa.Name = "UIStroke"
 			UIStroke_qqqaa.Parent = Box
 			UIStroke_qqqaa.ApplyStrokeMode = "Border"
-			UIStroke_qqqaa.Color = Color3.fromRGB(81, 81, 81)
+			UIStroke_qqqaa.Color = Color3.fromRGB(0, 0, 0)
 			UIStroke_qqqaa.LineJoinMode = "Round"
 			UIStroke_qqqaa.Thickness = 1
 			UIStroke_qqqaa.Transparency = 0
 
 			KeybindC.Name = "KeybindC"
 			KeybindC.Parent = Keybind
-			KeybindC.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			KeybindC.BackgroundColor3 = Color3.fromRGB(31, 255, 0)
 			KeybindC.BackgroundTransparency = 1.000
 			KeybindC.Position = UDim2.new(0.897233188, 0, 0, 0)
 			KeybindC.Size = UDim2.new(0, 26, 0, 20)
