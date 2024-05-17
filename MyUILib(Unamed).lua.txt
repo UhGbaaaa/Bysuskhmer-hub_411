@@ -107,7 +107,7 @@ function Library:Create(TitleText)
 	Main.Name = "Main"
 	Main.Parent = UILibrary
 	Main.AnchorPoint = Vector2.new(0.5, 0.5)
-	Main.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+	Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Main.Position = UDim2.new(0.5, 0, 0.5, 0)
 	Main.Size = UDim2.new(0, 400, 0, 228)
 
@@ -116,7 +116,7 @@ function Library:Create(TitleText)
 
 	TopBar.Name = "TopBar"
 	TopBar.Parent = Main
-	TopBar.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+	TopBar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	TopBar.Size = UDim2.new(1, 0, 0, 30)
 
 	UICorner_2.CornerRadius = UDim.new(0, 6)
@@ -125,7 +125,7 @@ function Library:Create(TitleText)
 	Extension.Name = "Extension"
 	Extension.Parent = TopBar
 	Extension.AnchorPoint = Vector2.new(0, 1)
-	Extension.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+	Extension.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Extension.BorderSizePixel = 0
 	Extension.Position = UDim2.new(0, 0, 1, 0)
 	Extension.Size = UDim2.new(1, 0, 0.5, 0)
@@ -137,7 +137,7 @@ function Library:Create(TitleText)
 	Title.Size = UDim2.new(0.5, 0, 1, 0)
 	Title.Font = Enum.Font.Gotham
 	Title.Text = TitleText
-	Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Title.TextColor3 = Color3.fromRGB(0, 0, 0)
 	Title.TextSize = 14.000
 	Title.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -148,7 +148,7 @@ function Library:Create(TitleText)
 	Line.Name = "Line"
 	Line.Parent = TopBar
 	Line.AnchorPoint = Vector2.new(0, 1)
-	Line.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
+	Line.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Line.BorderSizePixel = 0
 	Line.Position = UDim2.new(0, 0, 1, 0)
 	Line.Size = UDim2.new(1, 0, 0, 1)
@@ -176,7 +176,7 @@ function Library:Create(TitleText)
 
 	Navigation.Name = "Navigation"
 	Navigation.Parent = Main
-	Navigation.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+	Navigation.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Navigation.BorderSizePixel = 0
 	Navigation.Position = UDim2.new(0, 0, 0, 30)
 	Navigation.Size = UDim2.new(0, 120, 1, -30)
@@ -186,14 +186,14 @@ function Library:Create(TitleText)
 
 	Hide.Name = "Hide"
 	Hide.Parent = Navigation
-	Hide.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+	Hide.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Hide.BorderSizePixel = 0
 	Hide.Size = UDim2.new(1, 0, 0, 20)
 
 	Hide2.Name = "Hide2"
 	Hide2.Parent = Navigation
 	Hide2.AnchorPoint = Vector2.new(1, 0)
-	Hide2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+	Hide2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Hide2.BorderSizePixel = 0
 	Hide2.Position = UDim2.new(1, 0, 0, 0)
 	Hide2.Size = UDim2.new(0, 20, 1, 0)
@@ -214,7 +214,7 @@ function Library:Create(TitleText)
 
 	Line_2.Name = "Line"
 	Line_2.Parent = Navigation
-	Line_2.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
+	Line_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Line_2.BorderSizePixel = 0
 	Line_2.Position = UDim2.new(1, 0, 0, 0)
 	Line_2.Size = UDim2.new(0, 1, 1, 0)
@@ -222,7 +222,7 @@ function Library:Create(TitleText)
 	ContentContainer.Name = "ContentContainer"
 	ContentContainer.Parent = Main
 	ContentContainer.AnchorPoint = Vector2.new(1, 0)
-	ContentContainer.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+	ContentContainer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	ContentContainer.BackgroundTransparency = 1.000
 	ContentContainer.Position = UDim2.new(1, -6, 0, 36)
 	ContentContainer.Size = UDim2.new(1, -133, 1, -42)
@@ -266,7 +266,7 @@ function Library:Create(TitleText)
 		Active.Size = UDim2.new(1, 0, 0, 28)
 		Active.Font = Enum.Font.Ubuntu
 		Active.Text = TabText
-		Active.TextColor3 = Color3.fromRGB(199, 199, 199)
+		Active.TextColor3 = Color3.fromRGB(0, 0, 0)
 		Active.TextSize = 12.000
 		Active.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -360,7 +360,7 @@ function Library:Create(TitleText)
 
 			Section.Name = "Section"
 			Section.Parent = NewTab
-			Section.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+			Section.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Section.BackgroundTransparency = 1.000
 			Section.Position = UDim2.new(0, 0, 0.430411309, 0)
 			Section.Size = UDim2.new(1, 0, -0.0561393984, 32)
@@ -373,7 +373,7 @@ function Library:Create(TitleText)
 			Title_idk.Size = UDim2.new(0.339169234, -20, 1, 0)
 			Title_idk.Font = Enum.Font.Ubuntu
 			Title_idk.Text = title
-			Title_idk.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Title_idk.TextColor3 = Color3.fromRGB(0, 0, 0)
 			Title_idk.TextSize = 14.000
 
 			Thing.Name = "Thing"
@@ -428,7 +428,7 @@ function Library:Create(TitleText)
 
 			Button.Name = "Button"
 			Button.Parent = NewTab
-			Button.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+			Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Button.ClipsDescendants = true
 			Button.Size = UDim2.new(1, 0, 0, 32)
 			Button.AutoButtonColor = false
@@ -448,7 +448,7 @@ function Library:Create(TitleText)
 			Title_2.Size = UDim2.new(1, -20, 1, 0)
 			Title_2.Font = Enum.Font.Ubuntu
 			Title_2.Text = ButtonName
-			Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Title_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 			Title_2.TextSize = 14.000
 			Title_2.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -550,7 +550,7 @@ function Library:Create(TitleText)
 			
 			TextBox.Name = "TextBox"
 			TextBox.Parent = NewTab
-			TextBox.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+			TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			TextBox.ClipsDescendants = true
 			TextBox.Size = UDim2.new(1, 0, 0, 32)
 			TextBox.AutoButtonColor  = false
@@ -569,7 +569,7 @@ function Library:Create(TitleText)
 			Title_12.Size = UDim2.new(0.750988126, -20, 1, 0)
 			Title_12.Font = Enum.Font.Ubuntu
 			Title_12.Text = TextBoxTitle
-			Title_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Title_12.TextColor3 = Color3.fromRGB(0, 0, 0)
 			Title_12.TextSize = 14.000
 			Title_12.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -582,13 +582,13 @@ function Library:Create(TitleText)
 			UIStroke_9.Name = "UIStroke"
 			UIStroke_9.Parent = TextBox
 			UIStroke_9.ApplyStrokeMode = "Border"
-			UIStroke_9.Color = Color3.fromRGB(81, 81, 81)
+			UIStroke_9.Color = Color3.fromRGB(0, 0, 0)
 			UIStroke_9.LineJoinMode = "Round"
 			UIStroke_9.Thickness = 1
 			UIStroke_9.Transparency = 0
 
 			TextBox_2.Parent = TextBox
-			TextBox_2.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
+			TextBox_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			TextBox_2.BorderSizePixel = 0
 			TextBox_2.ClipsDescendants = true
 			TextBox_2.Position = UDim2.new(0.691699624, 0, 0, 0)
@@ -665,7 +665,7 @@ function Library:Create(TitleText)
 
 			Toggle.Name = "Toggle"
 			Toggle.Parent = NewTab
-			Toggle.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+			Toggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Toggle.ClipsDescendants = true
 			Toggle.Size = UDim2.new(1, 0, 0, 32)
 			Toggle.AutoButtonColor = false
@@ -684,7 +684,7 @@ function Library:Create(TitleText)
 			Title_6.Size = UDim2.new(1, -26, 1, 0)
 			Title_6.Font = Enum.Font.Ubuntu
 			Title_6.Text = ToggleName
-			Title_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Title_6.TextColor3 = Color3.fromRGB(0, 0, 0)
 			Title_6.TextSize = 14.000
 			Title_6.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -836,7 +836,7 @@ function Library:Create(TitleText)
 
 			Slider.Name = "Slider"
 			Slider.Parent = NewTab
-			Slider.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+			Slider.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Slider.Size = UDim2.new(1, 0, 0, 38)
 
 			UICorner_12.CornerRadius = UDim.new(0, 4)
@@ -845,7 +845,7 @@ function Library:Create(TitleText)
 			UIStroke_4.Name = "UIStroke"
 			UIStroke_4.Parent = Slider
 			UIStroke_4.ApplyStrokeMode = "Border"
-			UIStroke_4.Color = Color3.fromRGB(81, 81, 81)
+			UIStroke_4.Color = Color3.fromRGB(0, 0, 0)
 			UIStroke_4.LineJoinMode = "Round"
 			UIStroke_4.Thickness = 1
 			UIStroke_4.Transparency = 0
@@ -857,7 +857,7 @@ function Library:Create(TitleText)
 			Title_8.Size = UDim2.new(1, -24, 1, -10)
 			Title_8.Font = Enum.Font.Ubuntu
 			Title_8.Text = SliderTitle
-			Title_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Title_8.TextColor3 = Color3.fromRGB(0, 0, 0)
 			Title_8.TextSize = 14.000
 			Title_8.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -965,7 +965,7 @@ function Library:Create(TitleText)
 			
 			Keybind.Name = "Keybind"
 			Keybind.Parent = NewTab
-			Keybind.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+			Keybind.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Keybind.ClipsDescendants = true
 			Keybind.Size = UDim2.new(1, 0, 0, 32)
 			Keybind.AutoButtonColor = false
@@ -1041,7 +1041,7 @@ function Library:Create(TitleText)
 			Title_14.Size = UDim2.new(1, -20, 1, 0)
 			Title_14.Font = Enum.Font.Ubuntu
 			Title_14.Text = KeybindTitle
-			Title_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Title_14.TextColor3 = Color3.fromRGB(0, 0, 0)
 			Title_14.TextSize = 14.000
 			Title_14.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -1116,7 +1116,7 @@ function Library:Create(TitleText)
 
 			Warning.Name = "Warning"
 			Warning.Parent = NewTab
-			Warning.BackgroundColor3 = Color3.fromRGB(43, 36, 3)
+			Warning.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Warning.Size = UDim2.new(1, 0, 0, 26)
 
 			UIPadding_7.Parent = Warning
@@ -1132,7 +1132,7 @@ function Library:Create(TitleText)
 			Title_3.Size = UDim2.new(1, 0, 1, 0)
 			Title_3.Font = Enum.Font.Ubuntu
 			Title_3.Text = WarningText
-			Title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Title_3.TextColor3 = Color3.fromRGB(255, 0, 0)
 			Title_3.TextSize = 14.000
 			Title_3.TextWrapped = true
 			Title_3.TextXAlignment = Enum.TextXAlignment.Left
@@ -1193,7 +1193,7 @@ function Library:Create(TitleText)
 
 			Info.Name = "Info"
 			Info.Parent = NewTab
-			Info.BackgroundColor3 = Color3.fromRGB(3, 32, 43)
+			Info.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Info.Size = UDim2.new(1, 0, 0, 26)
 
 			UIPadding_9.Parent = Info
@@ -1210,7 +1210,7 @@ function Library:Create(TitleText)
 			Title_4.Font = Enum.Font.Ubuntu
 			Title_4.Text = InfoText
 			Title_4.TextWrapped = true
-			Title_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Title_4.TextColor3 = Color3.fromRGB(0, 0, 0)
 			Title_4.TextSize = 14.000
 			Title_4.TextXAlignment = Enum.TextXAlignment.Left
 			Title_4.TextYAlignment = Enum.TextYAlignment.Top
@@ -1271,7 +1271,7 @@ function Library:Create(TitleText)
 
 			Label.Name = "Label"
 			Label.Parent = NewTab
-			Label.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+			Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Label.Size = UDim2.new(1, 0, 0, 26)
 
 			UIPadding_11.Parent = Label
@@ -1288,7 +1288,7 @@ function Library:Create(TitleText)
 			Title_5.Font = Enum.Font.Ubuntu
 			Title_5.Text = LabelText
 			Title_5.TextWrapped = true
-			Title_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Title_5.TextColor3 = Color3.fromRGB(0, 0, 0)
 			Title_5.TextSize = 14.000
 			Title_5.TextXAlignment = Enum.TextXAlignment.Left
 			Title_5.TextYAlignment = Enum.TextYAlignment.Top
