@@ -704,7 +704,7 @@ function Library:Create(TitleText)
 
 			Sample.Name = "Sample"
 			Sample.Parent = Toggle
-			Sample.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Sample.BackgroundColor3 = Color3.fromRGB(31, 255, 0)
 			Sample.BackgroundTransparency = 1.000
 			Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
 			Sample.ImageColor3 = Color3.fromRGB(0, 0, 0)
@@ -742,7 +742,7 @@ function Library:Create(TitleText)
 							BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 						}):Play()
 						game.TweenService:Create(UIStroke_3, TweenInfo.new(0.15, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-							Color = Color3.fromRGB(255, 255, 255)
+							Color = Color3.fromRGB(0, 0, 0)
 						}):Play()
 						local c = sample:Clone()
 						c.Parent = btn
@@ -765,7 +765,7 @@ function Library:Create(TitleText)
 							BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 						}):Play()
 						game.TweenService:Create(UIStroke_3, TweenInfo.new(0.15, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-							Color = Color3.fromRGB(255, 255, 255) 
+							Color = Color3.fromRGB(31, 255, 0) 
 						}):Play()
 						local c = sample:Clone()
 						c.Parent = btn
@@ -795,7 +795,7 @@ function Library:Create(TitleText)
 						BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					}):Play()
 					game.TweenService:Create(UIStroke_2, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						Color = Color3.fromRGB(255, 255, 255)
+						Color = Color3.fromRGB(0, 0, 0)
 					}):Play()
 					hovering = true
 				end 
@@ -894,7 +894,7 @@ function Library:Create(TitleText)
 			UIStroke_5.Name = "UIStroke"
 			UIStroke_5.Parent = SliderButton
 			UIStroke_5.ApplyStrokeMode = "Border"
-			UIStroke_5.Color = Color3.fromRGB(255, 255, 255)
+			UIStroke_5.Color = Color3.fromRGB(0, 0, 0)
 			UIStroke_5.LineJoinMode = "Round"
 			UIStroke_5.Thickness = 1
 			UIStroke_5.Transparency = 0
