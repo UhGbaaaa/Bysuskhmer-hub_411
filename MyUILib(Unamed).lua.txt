@@ -462,7 +462,7 @@ function Library:Create(TitleText)
 			Sample.Parent = Button
 			Sample.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Sample.BackgroundTransparency = 1.000
-			Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
+			Sample.Image = "http://www.roblox.com/asset/?id=17293879645"
 			Sample.ImageColor3 = Color3.fromRGB(0, 0, 0)
 			Objects[Sample] = "ImageColor3"
 			Sample.ImageTransparency = 0.600
@@ -474,7 +474,7 @@ function Library:Create(TitleText)
 			Icon_2.BackgroundTransparency = 1.000
 			Icon_2.Position = UDim2.new(1, 0, 0, 0)
 			Icon_2.Size = UDim2.new(0, 20, 0, 20)
-			Icon_2.Image = "rbxassetid://10888474558"
+			Icon_2.Image = "rbxassetid://17293879645"
 
 			UIStroke.Name = "UIStroke"
 			UIStroke.Parent = Button
@@ -1014,7 +1014,7 @@ function Library:Create(TitleText)
 						BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					}):Play()
 					game.TweenService:Create(UIStroke_Idk791, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						Color = Color3.fromRGB(255, 255, 255)
+						Color = Color3.fromRGB(0, 0, 0)
 					}):Play()
 					hovering = true
 				end 
@@ -1025,7 +1025,7 @@ function Library:Create(TitleText)
 						BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					}):Play()
 					game.TweenService:Create(UIStroke_Idk791, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						Color = Color3.fromRGB(255, 255, 255)
+						Color = Color3.fromRGB(31, 255, 0)
 					}):Play()
 					hovering = false
 				end
@@ -1094,7 +1094,7 @@ function Library:Create(TitleText)
 			KeybindC.Size = UDim2.new(0, 26, 0, 20)
 			KeybindC.Font = Enum.Font.SourceSans
 			KeybindC.Text = oldKey
-			KeybindC.TextColor3 = Color3.fromRGB(255, 255, 255)
+			KeybindC.TextColor3 = Color3.fromRGB(0, 0, 0)
 			KeybindC.TextSize = 14.000
 
 			UIPadding_25.Parent = KeybindC
