@@ -15,7 +15,7 @@ function Library:DraggingEnabled(frame, parent)
 
 	parent = parent or frame
 
-	local dragging = true
+	local dragging = false
 	local dragInput, mousePos, framePos
 
 	frame.InputBegan:Connect(function(input)
