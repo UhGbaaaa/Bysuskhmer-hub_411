@@ -1,6 +1,6 @@
 local Library = {}
 
-local tween = game:GetService("TweenService")
+local tween1 = game:GetService("TweenService")
 local tweeninfo = TweenInfo.new
 local tweeninfo2 = TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut)
 local input = game:GetService("UserInputService")
@@ -334,13 +334,13 @@ function Library:Create(TitleText)
 					}):Play()
 				end
 			end
-			game.TweenService:Create(Active, TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
+			game.Tween1Service:Create(Active, TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 				BackgroundTransparency = 0.9
 			}):Play()
-			game.TweenService:Create(Active, TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
+			game.Tween1Service:Create(Active, TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 				TextColor3 = Color3.fromRGB(0, 0, 0)
 			}):Play()
-			game.TweenService:Create(Icon, TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
+			game.Tween1Service:Create(Icon, TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 				ImageColor3 = Color3.fromRGB(0, 0, 0)
 			}):Play()
 		end)
@@ -502,7 +502,7 @@ function Library:Create(TitleText)
 					else
 						size = (btn.AbsoluteSize.Y * 1.5)
 					end
-					c:TweenSizeAndPosition(UDim2.new(0, size, 0, size), UDim2.new(0.5, (-size / 2), 0.5, (-size / 2)), 'Out', 'Quad', len, true, nil)
+					c:Tween1SizeAndPosition(UDim2.new(0, size, 0, size), UDim2.new(0.5, (-size / 2), 0.5, (-size / 2)), 'Out', 'Quad', len, true, nil)
 					for i = 1, 10 do
 						c.ImageTransparency = c.ImageTransparency + 0.05
 						wait(len / 12)
@@ -513,10 +513,10 @@ function Library:Create(TitleText)
 			local hovering = false
 			btn.MouseEnter:Connect(function()
 				if not focusing then
-					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
+					game.Tween1Service:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						BackgroundColor3 = Color3.fromRGB(255, 255, 255) 
 					}):Play()
-					game.TweenService:Create(UIStroke, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
+					game.Tween1Service:Create(UIStroke, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						Color = Color3.fromRGB(0, 0, 0)
 					}):Play()
 					hovering = true
@@ -524,10 +524,10 @@ function Library:Create(TitleText)
 			end)
 			btn.MouseLeave:Connect(function()
 				if not focusing then 
-					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
+					game.Tween1Service:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						BackgroundColor3 = Color3.fromRGB(255, 255, 255) 
 					}):Play()
-					game.TweenService:Create(UIStroke, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
+					game.Tween1Service:Create(UIStroke, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						Color = Color3.fromRGB(0, 0, 0)
 					}):Play()
 					hovering = false
@@ -616,10 +616,10 @@ function Library:Create(TitleText)
 			local hovering = false
 			btn.MouseEnter:Connect(function()
 				if not focusing then
-					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
+					game.Tween1Service:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					}):Play()
-					game.TweenService:Create(UIStroke_9, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
+					game.Tween1Service:Create(UIStroke_9, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						Color = Color3.fromRGB(0, 0, 0)
 					}):Play()
 					hovering = true
@@ -627,10 +627,10 @@ function Library:Create(TitleText)
 			end)
 			btn.MouseLeave:Connect(function()
 				if not focusing then
-					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
+					game.Tween1Service:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					}):Play()
-					game.TweenService:Create(UIStroke_9, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
+					game.Tween1Service:Create(UIStroke_9, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						Color = Color3.fromRGB(0, 0, 0)
 					}):Play()
 					hovering = false
@@ -738,10 +738,10 @@ function Library:Create(TitleText)
 			Toggle.MouseButton1Click:Connect(function()
 				if not focusing then
 					if toggled == false then
-						game.TweenService:Create(CheckmarkHolder, TweenInfo.new(0.15, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
+						game.Tween1Service:Create(CheckmarkHolder, TweenInfo.new(0.15, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 							BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 						}):Play()
-						game.TweenService:Create(UIStroke_3, TweenInfo.new(0.15, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
+						game.Tween1Service:Create(UIStroke_3, TweenInfo.new(0.15, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 							Color = Color3.fromRGB(31, 255, 0)
 						}):Play()
 						local c = sample:Clone()
@@ -754,17 +754,17 @@ function Library:Create(TitleText)
 						else
 							size = (btn.AbsoluteSize.Y * 1.5)
 						end
-						c:TweenSizeAndPosition(UDim2.new(0, size, 0, size), UDim2.new(0.5, (-size / 2), 0.5, (-size / 2)), 'Out', 'Quad', len, true, nil)
+						c:Tween1SizeAndPosition(UDim2.new(0, size, 0, size), UDim2.new(0.5, (-size / 2), 0.5, (-size / 2)), 'Out', 'Quad', len, true, nil)
 						for i = 1, 10 do
 							c.ImageTransparency = c.ImageTransparency + 0.05
 							wait(len / 12)
 						end
 						c:Destroy()
 					else
-						game.TweenService:Create(CheckmarkHolder, TweenInfo.new(0.15, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
+						game.Tween1Service:Create(CheckmarkHolder, TweenInfo.new(0.15, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 							BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 						}):Play()
-						game.TweenService:Create(UIStroke_3, TweenInfo.new(0.15, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
+						game.Tween1Service:Create(UIStroke_3, TweenInfo.new(0.15, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 							Color = Color3.fromRGB(0, 0, 0) 
 						}):Play()
 						local c = sample:Clone()
@@ -777,7 +777,7 @@ function Library:Create(TitleText)
 						else
 							size = (btn.AbsoluteSize.Y * 1.5)
 						end
-						c:TweenSizeAndPosition(UDim2.new(0, size, 0, size), UDim2.new(0.5, (-size / 2), 0.5, (-size / 2)), 'Out', 'Quad', len, true, nil)
+						c:Tween1SizeAndPosition(UDim2.new(0, size, 0, size), UDim2.new(0.5, (-size / 2), 0.5, (-size / 2)), 'Out', 'Quad', len, true, nil)
 						for i = 1, 10 do
 							c.ImageTransparency = c.ImageTransparency + 0.05
 							wait(len / 12)
@@ -791,10 +791,10 @@ function Library:Create(TitleText)
 			local hovering = false
 			btn.MouseEnter:Connect(function()
 				if not focusing then
-					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
+					game.Tween1Service:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					}):Play()
-					game.TweenService:Create(UIStroke_2, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
+					game.Tween1Service:Create(UIStroke_2, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						Color = Color3.fromRGB(0, 0, 0)
 					}):Play()
 					hovering = true
@@ -802,10 +802,10 @@ function Library:Create(TitleText)
 			end)
 			btn.MouseLeave:Connect(function()
 				if not focusing then
-					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
+					game.Tween1Service:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					}):Play()
-					game.TweenService:Create(UIStroke_2, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
+					game.Tween1Service:Create(UIStroke_2, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						Color = Color3.fromRGB(0, 0, 0)
 					}):Play()
 					hovering = false
@@ -1010,10 +1010,10 @@ function Library:Create(TitleText)
 			local hovering = false
 			btn.MouseEnter:Connect(function()
 				if not focusing then
-					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
+					game.Tween1Service:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					}):Play()
-					game.TweenService:Create(UIStroke_Idk791, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
+					game.Tween1Service:Create(UIStroke_Idk791, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						Color = Color3.fromRGB(0, 0, 0)
 					}):Play()
 					hovering = true
@@ -1021,10 +1021,10 @@ function Library:Create(TitleText)
 			end)
 			btn.MouseLeave:Connect(function()
 				if not focusing then
-					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
+					game.Tween1Service:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					}):Play()
-					game.TweenService:Create(UIStroke_Idk791, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
+					game.Tween1Service:Create(UIStroke_Idk791, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						Color = Color3.fromRGB(0, 0, 0)
 					}):Play()
 					hovering = false
