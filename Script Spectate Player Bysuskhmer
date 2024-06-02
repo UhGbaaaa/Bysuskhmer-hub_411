@@ -24,6 +24,7 @@ o6 = Instance.new("ImageButton")
 o7 = Instance.new("LocalScript")
 o1.Name = "SpectateGui"
 o1.Parent = mas
+o1.Draggable = true
 o2.Name = "Bar"
 o2.Parent = o1
 o2.Position = UDim2.new(-1,-100,0.87999999523163,-50)
@@ -76,6 +77,7 @@ o6.BackgroundColor3 = Color3.new(1, 1, 1)
 o6.BackgroundTransparency = 0.30000001192093
 o6.BorderSizePixel = 5
 o6.Image = "http://www.roblox.com/asset/?id=176106970"
+o6.Draggable = true
 o7.Parent = o1
 table.insert(cors,coroutine.create(function()
 wait()
